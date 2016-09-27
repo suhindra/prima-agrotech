@@ -127,6 +127,7 @@ input.txtsearch {
 
 #site-header .container > .navbar-header {
     height: 58px;
+    background-color: #c4cbca !important;
 }
 
 #site-header .container > .navbar-header .navbar-toggle {
@@ -197,8 +198,7 @@ input.txtsearch {
 }
 
 #site-header .site-navbar .navbar-brand {
-    padding-top: 19px;
-    padding-bottom: 19px;
+    margin-top: -20px !important;
     padding-right: 20px;
     font-family: "robotoblack";
     text-transform: uppercase;
@@ -660,7 +660,7 @@ input.txtsearch {
     padding-top: 40px;
     padding-bottom: 40px;
     background: #5F9220;
-    margin-top: 50px;		
+    margin-top: 50px;
 }
 
 #footer .footer-nav a {
@@ -1459,4 +1459,8 @@ i.red {
 .news-media .pagination > .active > a,.news-media .pagination > .active > a:focus,.news-media .pagination > .active > a:hover,.news-media .pagination > .active > span,.news-media .pagination > .active > span:focus,.news-media .pagination > .active > span:hover {
     background-color: #638C1C;
     border-color: #638C1C;
+}
+
+.logoUp {
+  margin-top: -30px;
 }
